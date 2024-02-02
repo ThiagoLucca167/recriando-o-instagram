@@ -1,0 +1,23 @@
+.container{
+    padding: 5vh 5vw;
+}
+.responsive{
+    display: flex;
+    flex-direction: row;
+}
+.bannertelefone{
+
+}
+.imagemTelefone{
+    width: 425px;
+    height: 583px;
+    position: relative;
+    background: url(img/home-phones.png);
+    background-repeat: no-repeat;
+}
+.bannertelefone .imagemTelefone img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 27px 20px 0px 0px;
+}
