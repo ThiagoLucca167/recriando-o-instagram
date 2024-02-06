@@ -21,3 +21,20 @@
     top: 0;
     margin: 27px 20px 0px 0px;
 }
+.dadosLogin{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.formLogin input{
+    height: 30px;
+    width: 250px;
+    text-align: start;
+    padding: 5px 0px 0px 5px;
+}
