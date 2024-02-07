@@ -11,6 +11,7 @@
 .imagemTelefone{
     width: 425px;
     height: 583px;
+    margin-right: 15px;
     position: relative;
     background: url(img/home-phones.png);
     background-repeat: no-repeat;
@@ -21,20 +22,39 @@
     top: 0;
     margin: 27px 20px 0px 0px;
 }
+.infoLogin{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
 .dadosLogin{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    border: 1px solid #dddddd;
+    padding: 50px;
 }
 .formLogin{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 260px;
 }
 .formLogin input{
     height: 30px;
     width: 250px;
     text-align: start;
     padding: 5px 0px 0px 5px;
+    border: 1px solid #dddddd
+}
+.mrt{
+    margin-top: 15px;
+}
+
+.ou{
+    display: flex;
+    align-items: center;
+}
+.ou hr{
+    width: 100px;
+    height: 0px;
+    background: #dddddd;
 }
