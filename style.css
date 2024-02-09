@@ -15,10 +15,14 @@
     background-repeat: no-repeat;
 }
 .bannertelefone .imagemTelefone img {
+    display: none;
     position: absolute;
     right: 0;
     top: 0;
     margin: 27px 20px 0px 0px;
+}
+.bannertelefone .imagemTelefone img:first-child {
+    display: block;
 }
 .infoLogin{
     width: 100%;
