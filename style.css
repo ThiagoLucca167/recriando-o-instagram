@@ -33,6 +33,16 @@
     border: 1px solid #dddddd;
     padding: 50px;
 }
+.logotipo{
+    background-image: url(img/bannersLogo.png);
+    width: 175px;
+    height: 53px;
+    background-repeat: no-repeat;
+    background-position: 0px -51px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
 .formLogin{
     display: flex;
     flex-direction: column;
