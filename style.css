@@ -80,3 +80,27 @@
     height: 0px;
     background: #dddddd;
 }
+.opcaoentrada{
+    text-align: center;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 5px 0;
+}
+.opcaoentrada a{
+    text-decoration: none;
+    color: #385185;
+    font-weight: 600;
+    font-family: math;
+    font-size: 15px;
+}
+.opcaoentrada span{
+    background-image: url(img/logoIcons.png);
+    padding: 0px 8px 0px 9px;
+    background-position: -413px -258px;
+    font-size: 18px;
+    margin: 0 5px 0 0px;
+}
+
