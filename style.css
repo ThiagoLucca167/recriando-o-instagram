@@ -25,7 +25,6 @@
 .infoLogin{
     width: 100%;
     display: flex;
-    justify-content: start;
     align-items: center;
     flex-direction: column;
 }
@@ -104,3 +103,20 @@
     margin: 0 5px 0 0px;
 }
 
+.cadastro{
+    margin: 20px 0;
+    width: 100%;
+    border: 1px solid #dddddd;
+    display: flex;
+    justify-content: center;
+}
+.cadastro p{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.cadastro p a{
+    font-weight: 600;
+    color: #0064e0;
+    text-decoration: none;
+    margin-left: 5px;
+}
